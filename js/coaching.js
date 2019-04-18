@@ -1,9 +1,12 @@
+//for dropdown hover in navbar
 $('li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
 }, function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 });
-// body
+//ends
+
+// for image slider
 $('.slider').each(function() {
   var $this = $(this);
   var $group = $this.find('.slide_group');
@@ -94,4 +97,4 @@ $('.slider').each(function() {
   advance();
 });
 
-///body
+///image slider ends
